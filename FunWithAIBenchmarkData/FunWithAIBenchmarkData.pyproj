@@ -24,6 +24,12 @@
     <Compile Include="dataPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="imagePackage\Image.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="imagePackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mainPackage\main.py" />
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
@@ -49,16 +55,25 @@
     <Compile Include="utilitiesPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="visualizationPackage\Visualization.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="visualizationPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dataPackage\" />
     <Folder Include="dataPackage\MMLU\" />
     <Folder Include="dataPackage\MMLU\data\" />
     <Folder Include="dataPackage\MMLU\results\" />
+    <Folder Include="imagePackage\" />
+    <Folder Include="imagePackage\zubatImage\" />
     <Folder Include="mainPackage\" />
     <Folder Include="PDFPackage\" />
     <Folder Include="readingLevelPackage\" />
     <Folder Include="utilitiesPackage\" />
+    <Folder Include="visualizationPackage\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="dataPackage\MMLU\data\abstract_algebra_test.csv" />

@@ -1,6 +1,5 @@
 # main.py
-# Bill Nicholson
-# nicholdw@ucmail.uc.edu
+# Zoha Iqbal
 
 from readingLevelPackage.readingLevel import Reading_Level
 from utilitiesPackage.utilities import *

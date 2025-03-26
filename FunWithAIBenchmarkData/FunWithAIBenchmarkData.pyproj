@@ -68,8 +68,8 @@
     <Folder Include="dataPackage\MMLU\data\" />
     <Folder Include="dataPackage\MMLU\results\" />
     <Folder Include="imagePackage\" />
-    <Folder Include="imagePackage\zubatImage\" />
     <Folder Include="mainPackage\" />
+    <Folder Include="zubatImage\" />
     <Folder Include="PDFPackage\" />
     <Folder Include="readingLevelPackage\" />
     <Folder Include="utilitiesPackage\" />
@@ -133,6 +133,7 @@
     <Content Include="dataPackage\MMLU\data\us_foreign_policy_test.csv" />
     <Content Include="dataPackage\MMLU\data\virology_test.csv" />
     <Content Include="dataPackage\MMLU\data\world_religions_test.csv" />
+    <Content Include="zubatImage\zubat.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -18,7 +18,7 @@ from visualizationPackage.Visualization import *
 from imagePackage.Image import display_image
 import os
 if __name__ == "__main__":
-    file_path = "dataPackage\MMLU\data\college_mathematics_test.csv"
+    file_path = "dataPackage/MMLU/data/college_mathematics_test.csv"
     viz = Visualization(file_path)
     viz.plot_distribution()
 

@@ -10,7 +10,7 @@
 # Citations: chatgpt
 # Anything else that's relevant:
 
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk 
 import tkinter as tk
 import os
 

@@ -1,13 +1,32 @@
-# main.py
-# Zoha Iqbal
+# file name: main.py
+# name: Zoha Iqbal
+# email: iqbalza@mail.uc.edu
+# Assignment Number: Assignment 08
+# Due Date:  3/26/25
+# Course #/Section: IS 4010-001
+# Semester/Year: Spring 2025
+# Brief Description of the assignment: using github to work on group project
+# Brief Description of what this module does: called visulization and image into main.py
+# Citations: chatgpt
+# Anything else that's relevant:
 
 from readingLevelPackage.readingLevel import Reading_Level
 from utilitiesPackage.utilities import *
 from utilitiesPackage.CSV_Utilities import *
 from PDFPackage.PDFUtilities import *
 from visualizationPackage.Visualization import *
-
+from imagePackage.Image import display_image
+import os
 if __name__ == "__main__":
+    file_path = "dataPackage\MMLU\data\college_mathematics_test.csv"
+    viz = Visualization(file_path)
+    viz.plot_distribution()
+
+    # Get the absolute path of the image
+    image_path = os.path.join(os.path.dirname(__file__), "../zubatImage/zubat.jpg")
+ 
+    # Display the image
+    display_image(image_path)
 
     CSV_Processor = MMLU_CSV_Processor("dataPackage/MMLU/data/", ["management_test.csv"])
     questions = CSV_Processor.read_data()

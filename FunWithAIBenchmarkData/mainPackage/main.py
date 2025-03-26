@@ -1,5 +1,14 @@
-# main.py
-# Zoha Iqbal
+# file name: main.py
+# name: Zoha Iqbal
+# email: iqbalza@mail.uc.edu
+# Assignment Number: Assignment 08
+# Due Date:  3/26/25
+# Course #/Section: IS 4010-001
+# Semester/Year: Spring 2025
+# Brief Description of the assignment: using github to work on group project
+# Brief Description of what this module does: called visulization and image into main.py
+# Citations: chatgpt
+# Anything else that's relevant:
 
 from readingLevelPackage.readingLevel import Reading_Level
 from utilitiesPackage.utilities import *

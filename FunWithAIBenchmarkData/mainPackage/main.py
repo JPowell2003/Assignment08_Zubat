@@ -5,6 +5,7 @@ from readingLevelPackage.readingLevel import Reading_Level
 from utilitiesPackage.utilities import *
 from utilitiesPackage.CSV_Utilities import *
 from PDFPackage.PDFUtilities import *
+from visualizationPackage.Visualization import *
 
 if __name__ == "__main__":
 
@@ -38,7 +39,7 @@ if __name__ == "__main__":
     
 
     #5. Perform some data visualization on the text. Research Data Vis libraries and apply one.
-     
+
 
     #6a. Write all the questions and possible answers (without the correct answer) to a text file. Use a CSV format and create a unique identifier field for each question.
     #6b. Write the question identifier (see 6a, above) and the correct answer to another text file. Use a CSV format.

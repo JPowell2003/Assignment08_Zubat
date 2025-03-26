@@ -61,8 +61,3 @@ class Visualization:
         plt.xticks(['A', 'B', 'C', 'D'])
         plt.grid(axis='y', linestyle='--', alpha=0.7)
         plt.show()
-
-        # Add to main using:
-        #    file_path = "[one of the CSV files]"
-        #    viz = Visualization(file_path)
-        #    viz.plot_distribution()

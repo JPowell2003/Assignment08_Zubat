@@ -17,6 +17,8 @@ import os
 def display_image(image_path):
     """
     Displays the given image in a Tkinter window.
+    @param image_path: str - The file path of the image to be displayed.
+    @return: None
     """
     if not os.path.exists(image_path):
         print(f"Error: Image '{image_path}' not found.")
